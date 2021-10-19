@@ -54,11 +54,58 @@
 				Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 			</div>
 		</div>
+		<div class="skill-wrapper">
+			<h4 class="title">Im really good at:</h4>
+			<ul class="skill-wrap">
+				<li class="skill">
+					<h5 class="title">
+						<i class="fa fa-camera"></i>Photography
+					</h5>
+					<div class="bar-wrap">
+						<div class="bar">90%</div>
+					</div>
+				</li>
+				<li class="skill">
+					<h5 class="title">
+						<i class="fa fa-laptop"></i> Web Design
+					</h5>
+					<div class="bar-wrap">
+						<div class="bar">85%</div>
+					</div>
+				</li>
+				<li class="skill">
+					<h5 class="title">
+						<i class="fa fa-image"></i> Photoshop
+					</h5>
+					<div class="bar-wrap">
+						<div class="bar">70%</div>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</section>
 
-	<!-- client-wrapper -->
-	<aside class="client-wrapper">
-
+	<!-- client-bar -->
+	<aside class="client-bar">
+		<!-- ul.client-wrap>li.client*4>h3.title+h4.count -->
+		<ul class="client-wrap clearfix">
+			<li class="client">
+				<h3 class="title">Partners</h3>
+				<h4 class="count">14+</h4>
+			</li>
+			<li class="client">
+				<h3 class="title">Projects Done</h3>
+				<h4 class="count">55+</h4>
+			</li>
+			<li class="client">
+				<h3 class="title">Happy Clients</h3>
+				<h4 class="count">89+</h4>
+			</li>
+			<li class="client">
+				<h3 class="title">Meetings</h3>
+				<h4 class="count">150+</h4>
+			</li>
+		</ul>
 	</aside>
 
 		<!-- port-bar -->
@@ -71,6 +118,17 @@
 		<h2 class="title">MY WORK</h2>
 		<h3 class="title">Here are some of my latest lorem work ipsum tipsum.<br>
 			Click on the images to make them bigger</h3>
+		<ul class="port-wrap clearfix">
+			<li class="port"><img src="../img/p1.jpg" alt="The mist over the mountains" class="img"></li>
+			<li class="port"><img src="../img/p2.jpg" alt="Coffee beans" class="img"></li>
+			<li class="port"><img src="../img/p3.jpg" alt="Bear closeup" class="img"></li>
+			<li class="port"><img src="../img/p4.jpg" alt="Quiet ocean" class="img"></li>
+			<li class="port"><img src="../img/p5.jpg" alt="The mist" class="img"></li>
+			<li class="port"><img src="../img/p6.jpg" alt="My beloved typewriter" class="img"></li>
+			<li class="port"><img src="../img/p7.jpg" alt="Empty ghost train" class="img"></li>
+			<li class="port"><img src="../img/p8.jpg" alt="Sailing" class="img"></li>
+		</ul>
+		<button class="bt-more">LOAD MORE</button>
 	</section>
 
 		<!-- contact-bar -->
@@ -82,12 +140,48 @@
 	<section class="contact-wrapper wrapper">
 		<h2 class="title">WHERE I WORK</h2>
 		<h3 class="title">I'd love your feedback!</h3>
+		<div class="contact-outwrap clearfix">
+			<div class="loc-inwrap">
+				<img src="../img/map.jpg" alt="map" class="img">
+			</div>
+			<div class="info-inwrap">
+				<ul class="info-wrap">
+					<li class="info">
+						<i class="fa fa-map-marker-alt"></i>Chicago, US
+					</li>
+					<li class="info">
+						<i class="fa fa-phone-alt"></i><a href="tel:+00 151515">Phone: +00 151515</a>
+					</li>
+					<li class="info">
+						<i class="fa fa-envelope"></i><a href="mailto:mail@mail.com">Email: mail@mail.com</a>
+					</li>
+				</ul>
+				<p class="desc-wrap">
+					Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:
+				</p>
+				<form action="#" class="form-wrap clearfix">
+					<input type="text" class="input-text" name="name" placeholder="Name">
+					<input type="text" class="input-text" name="email" placeholder="Email">
+					<input type="text" class="input-text" name="msg" placeholder="Message">
+					<button><i class="fa fa-paper-plane"></i>SEND MESSAGE</button>
+				</form>
+			</div>
+		</div>
 	</section>
 
 	<!-- footer-wrapper -->
 	<section class="footer-wrapper">
 
 	</section>
+
+	<!-- modal-wrapper -->
+	<aside class="modal-wrapper clearfix">
+		<div class="modal-wrap">
+			<img src="" alt="modal-img" class="modal-img img">
+			<h3 class="modal-title"></h3>
+		</div>
+		<i class="fa fa-times modal-close"></i>
+	</aside>
 
 	<script src="../js/index.js"></script>
 </body>
